@@ -2,47 +2,247 @@
 
 const all_student=[
 
-               {
-                  name  : 'Anisul',
-                  class : 10 ,
-                  age   : 21 ,
-                  gen   : 'male',
-                  loc   : 'Chittagong',
-                  fees  : 1000
-               },
-               {
-                  name  : 'Rokiya',
-                  class : 15,
-                  age   : 22, 
-                  gen   : 'female',
-                  loc   :  'Dhaka',
-                  fees  : 1500
-               },
+   {
+      name  : 'Anisul',
+      class : 10 ,
+      age   : 21 ,
+      gen   : 'male',
+      loc   : 'Chittagong',
+      fees  : 1000
+   },
+   {
+      name  : 'Rokiya',
+      class : 15,
+      age   : 22, 
+      gen   : 'female',
+      loc   :  'Dhaka',
+      fees  : 1500
+   },
 
-               {
-                  name  : 'Asraful',
-                  class : 15 ,
-                  age   : 28 ,
-                  gen   : 'male',
-                  loc   : 'Chittagong',
-                  fees  : 10000
-               },
-               {
-                  name  : 'Roksana',
-                  class : 10,
-                  age   : 18, 
-                  gen   : 'female',
-                  loc   :  'Dhaka',
-                  fees  :  1000
-               },
-               {
-                  name  : 'ovi AR',
-                  class : 15,
-                  age   : 30,
-                  gen   :'male',
-                  loc   :'Chittagong',
-                  fees  : 1500
-               }
+   {
+      name  : 'Asraful',
+      class : 15 ,
+      age   : 28 ,
+      gen   : 'male',
+      loc   : 'Chittagong',
+      fees  : 10000
+   },
+   {
+      name  : 'Roksana',
+      class : 10,
+      age   : 18, 
+      gen   : 'female',
+      loc   :  'Dhaka',
+      fees  :  1000
+   },
+   {
+      name  : 'ovi AR',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'AR kabir',
+      class : 10,
+      age   : 11,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1000
+   },
+   {
+      name  : 'Adil Hassan',
+      class : 15,
+      age   : 25,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 500
+   },
+   {
+      name  : 'Adiha',
+      class : 10,
+      age   : 30,
+      gen   :'female',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Sarmin',
+      class : 15,
+      age   : 15,
+      gen   :'female',
+      loc   :'Dhaka',
+      fees  : 1500
+   },
+   {
+      name  : 'Adib',
+      class : 15,
+      age   : 24,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Somon',
+      class : 15,
+      age   : 10,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 1500
+   },
+   {
+      name  : 'Radifa',
+      class : 15,
+      age   : 18,
+      gen   :'female',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Jibon',
+      class : 10,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 500
+   },
+   {
+      name  : 'kabir',
+      class : 15,
+      age   : 20,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 1500
+   },
+   {
+      name  : 'Mainol Hasan',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Raysia',
+      class : 10,
+      age   : 22,
+      gen   :'female',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Mliha',
+      class : 10,
+      age   : 27,
+      gen   :'female',
+      loc   :'Dhaka',
+      fees  : 500
+   },
+   {
+      name  : 'kotob',
+      class : 10,
+      age   : 24,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Jabol',
+      class : 15,
+      age   : 17,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 1200
+   },
+   {
+      name  : 'Siba kanom',
+      class : 10,
+      age   : 14,
+      gen   :'female',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Lal Bahar',
+      class : 10,
+      age   : 25,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 1500
+   },
+   {
+      name  : 'Abid ',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'shiab',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 500
+   },
+   {
+      name  : 'Adiha jaman',
+      class : 15,
+      age   : 30,
+      gen   :'female',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Abdulliah',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 500
+   },
+   {
+      name  : 'Ar jibon',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 2000
+   },
+   {
+      name  : 'Tayjol',
+      class : 15,
+      age   : 30,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   },
+   {
+      name  : 'Soriful ',
+      class : 10,
+      age   : 18,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 2500
+   },
+   {
+      name  : 'Robin',
+      class : 15,
+      age   : 20,
+      gen   :'male',
+      loc   :'Dhaka',
+      fees  : 800
+   },
+   {
+      name  : 'sajib',
+      class : 15,
+      age   : 25,
+      gen   :'male',
+      loc   :'Chittagong',
+      fees  : 1500
+   }
 
 
 ]
